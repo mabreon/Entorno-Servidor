@@ -28,7 +28,12 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="{{ url('/usuarios') }}">Usuarios</a>
+                    <a class="nav-link" href="{{ url('/usuarios') }}">Usuarios</a> 
+                    
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="{{ url('/muebles') }}">Muebles</a> 
+                    
                 </li>
             </ul>
         </div>
